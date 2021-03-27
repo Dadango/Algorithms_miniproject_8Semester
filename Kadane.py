@@ -1,5 +1,4 @@
 import sys
-import random
 
 
 def findMaxSubArray(arrayIn):
@@ -40,5 +39,3 @@ result = findMaxSubArray(inDat)
 print(maxSubarray(inDat))
 print("largest sum was: " + result.__str__())
 '''
-# complexity is O(n)
-# O(1) space required

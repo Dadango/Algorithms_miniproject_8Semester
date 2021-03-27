@@ -40,5 +40,3 @@ result = findMaxSubArray(inDat, 0, len(inDat)-1)
 print("largest sum was: " + result.__str__())
 '''
 
-# complexity is: O(n log n)
-# O(1) space required

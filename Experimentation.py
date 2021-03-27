@@ -7,9 +7,9 @@ from numpy import random as r
 
 def test(inDat):
 
-    file2write = open("arrays.txt", 'a')
-    file2write.write(inDat.tolist().__str__() + "\n next \n")
-    file2write.close()
+    # file2write = open("arrays.txt", 'a')
+    # file2write.write(inDat.tolist().__str__() + "\n next \n")
+    # file2write.close()
 
     tracemalloc.start()
     dc.findMaxSubArray(inDat, 0, len(inDat)-1)
@@ -40,5 +40,5 @@ test(r.randint(30, size=200000))
 test(r.randint(-5, 5, size=200000))
 test(r.randint(-20, 20, size=1000))
 
-    # print(inDat.tolist())
-    # print(inDat)
+# print(inDat.tolist())
+# print(inDat)
